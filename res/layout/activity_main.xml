@@ -8,35 +8,36 @@
     android:paddingTop="@dimen/activity_vertical_margin"
     tools:context="com.example.myapp.MainActivity" >
 
-    <EditText
-        android:id="@+id/txt_name"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignLeft="@+id/label_name"
-        android:layout_below="@+id/label_name"
-        android:layout_marginTop="29dp"
-        android:ems="10"
-        android:hint="Ingrese su nombre"
-        android:inputType="textPersonName" />
-
     <TextView
         android:id="@+id/label_name"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentLeft="true"
         android:layout_alignParentTop="true"
-        android:layout_marginLeft="19dp"
-        android:layout_marginTop="28dp"
-        android:text="@string/label_name"
+        android:layout_marginLeft="47dp"
+        android:layout_marginTop="27dp"
+        android:text="Ingrese su nombre"
         android:textSize="@dimen/label_size" />
 
+    <EditText
+        android:id="@+id/txt_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/label_name"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="51dp"
+        android:ems="10"
+        android:hint="Ingrese su nombre"
+        android:inputType="textPersonName" />
+
     <Button
-        android:id="@+id/button1"
+        android:id="@+id/btn_enviar"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_below="@+id/txt_name"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="36dp"
+        android:layout_marginTop="111dp"
         android:text="Enviar" />
 
 </RelativeLayout>
